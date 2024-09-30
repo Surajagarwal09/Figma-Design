@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: rgba(147, 234, 153, 1);
+    font-family: "Inter", sans-serif;
+    margin-left: 60px;
+}
+nav {
+    position: fixed;
+    overflow: hidden;
+    display: flex;
+    margin-top: 34px;   
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 60px;
+}
+nav ul {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    list-style-type: none;
+}
+ul li:hover {
+    color: rgba(41, 148, 167, 0.625);
+}
+nav ul li {
+    color: rgba(255, 255, 255, 1);
+    font-weight: 700;
+    font-family: "Inter", sans-serif;
+    cursor: pointer;
+}
+.main {
+    border-radius: 15px;
+    height: 60px;
+    background-color: rgba(163, 237, 168, 255);
+    box-shadow: 0 5px 25px 0 rgb(163, 237, 168, 270);
+    font-size: 18px;
+    padding: 0;
+}
+.main li {
+    padding: 2vw;
+}
+.search {
+    color: rgba(255, 255, 255, 1);
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    align-items: center;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgba(177, 240, 181, 255);
+    box-shadow: 0 5px 25px 0 rgb(163, 237, 168, 260);
+    cursor: pointer;
+}
+.search i {
+    margin-right: 20px; 
+}
+.search:hover {
+    color: rgba(41, 148, 167, 0.625);
+}
+.saddlebutton, .userbutton {
+    padding: 5px;
+    border-radius: 15px;
+    cursor: pointer;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.15);
+}
+.saddlebutton:hover, .userbutton:hover {
+    background-color: rgba(173, 222, 231, 0.521);
+}
+.userbutton {
+    margin-right: 120px;
+}
+.content {
+    display: flex;
+}
+pre {
+    margin-top: 130px;
+    color: rgba(255, 255, 255, 1);
+    font-family: "Inter", sans-serif;
+    font-size: 75px;
+    font-weight: 700;
+}
+.bicycle1 {
+    margin-left: -640px;
+    margin-top:50px ;
+    width: 680px;
+    height: 590px;
+}
+.content .eclips1{
+    margin-top: 60px;
+    margin-left: -50px;
+    width: 590px;
+    height: 590px;
+}
+.content .eclips2{
+    margin-top: 135px;
+    margin-left: -240px;
+    border: 1.5px solid white;
+    padding: 5px ;
+    height: 33px;
+    width: 33px;
+    border-radius: 50%;
+}
+.pre2 {
+    margin-top: -325px;
+    margin-left: 5px;
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+}
+.explore {
+    margin-top: 15px;
+    margin-left: 5px;
+    width: 216px;
+    height: 65px;
+    border-radius: 13px;
+    border: none;
+    font-family: "Inter", sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    color: rgba(147, 234, 153, 1);
+    cursor: pointer;
+}
+.review{
+    font-family: "Inter", sans-serif;
+    background-color: rgba(255, 255, 255, 0.25);
+    justify-content: center;
+    color: rgba(255, 255, 255, 1);
+    text-align: center;
+    height: 180px;
+    width: 290px;
+    margin-top: -120px;
+    margin-left: 76%;
+    border-radius: 39px;
+    padding: 20px;
+}
+.images{
+    display: flex;
+}
+.img1{
+    height: 40px;
+    width: 40px;
+}
+.img2{
+    margin-left: -17px;
+    height: 40px;
+    width: 40px;
+}
+.img3{
+    margin-left: -17px;
+    height: 40px;
+    width: 40px;
+}
+.img4{
+    margin-left: -17px;
+    height: 40px;
+    width: 40px;
+}
+.pre3{
+    margin-top: 0px;
+    font-family: "Inter";
+    font-size: 25px;
+    font-weight: 600;
+}
+.pre4{
+    text-align: center;
+    margin-top: 10px;
+    font-family: "Inter", sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 29.05px;
+}
+.submit{
+    display: flex;
+    justify-content: space-evenly;
+}
+.submit p{
+    margin-top: 15px;
+    margin-left: -15px;
+    font-family: "Inter", sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+}
+.newspaper{
+    margin-top: 10px;
+    margin-right: -25px;
+    width: 22px;
+    height: 22px;
+    border: 5px solid white;
+    border-radius: 14px;
+    padding: 6px;
+    cursor: pointer;
+}
+
+.bottom{
+    margin-top: 40px;
+    display: flex;
+    font-family: "Inter", sans-serif;
+    justify-content: space-between;
+    color: rgba(255, 255, 255, 1);
+}
+.bottom p{
+    font-size: 20px;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+}
+.h3{
+    display: flex;
+    margin-right: 40px;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 900;    
+    gap: 25px;
+    cursor: pointer;
+    font-family: "Inter", sans-serif;
+}
+.shape{
+    width: 20px;
+    height: 48px;
+    border: 8px solid;
+    border-radius: 37px;
+    margin-top:-60px ;
+    padding: 2px;
+    cursor: pointer;
+}
+.eclips3{
+    width: 20px;
+    height: 20px;
+}
